@@ -3159,3 +3159,277 @@ button {
     object-fit: contain;
     display: block;
 }
+
+/* =====================================================
+   EXTRA MOBILE RESPONSIVE FIX
+   Existing images, videos, paths & content unchanged
+===================================================== */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* TABLET */
+@media (max-width: 850px) {
+
+    .container {
+        width: min(94%, 700px);
+    }
+
+    .video-section {
+        padding: 60px 15px;
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: 576px;
+        aspect-ratio: 4 / 3;
+    }
+
+    .about-layout {
+        gap: 40px;
+    }
+
+    .order-box {
+        width: 100%;
+    }
+
+}
+
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .video-section {
+        padding: 55px 12px;
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        margin: 25px auto;
+        border-radius: 14px;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .section-heading h2,
+    .video-content h2,
+    .about-content h2,
+    .order-heading h2 {
+        font-size: 32px;
+    }
+
+    .hero-text {
+        padding: 0 10px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        width: 100%;
+    }
+
+    .hero-buttons a,
+    .hero-buttons button {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .trust-item {
+        padding: 14px 10px;
+    }
+
+    .certificate-card {
+        width: 100%;
+    }
+
+    .certificate-image {
+        height: 300px;
+    }
+
+    .about-image {
+        width: 100%;
+        min-height: 390px;
+    }
+
+    .about-image img {
+        width: 78%;
+        height: 370px;
+    }
+
+    .image-circle {
+        width: 290px;
+        height: 290px;
+    }
+
+    .floating-badge {
+        width: 105px;
+        height: 105px;
+        right: 0;
+        bottom: 20px;
+    }
+
+    .ingredient-card {
+        padding: 28px 18px;
+    }
+
+    .review-slide img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+    }
+
+    .product-slide img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+    }
+
+    .faq-question {
+        padding: 16px;
+        font-size: 15px;
+        gap: 12px;
+    }
+
+    .faq-answer p {
+        padding: 0 16px 18px;
+        font-size: 14px;
+    }
+
+    .order-product-card {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .product-card-info {
+        min-width: 0;
+    }
+
+    .product-card-info h4,
+    .product-card-info p {
+        overflow-wrap: anywhere;
+    }
+
+    .order-summary strong {
+        font-size: 25px;
+    }
+
+    .order-line {
+        flex-wrap: wrap;
+    }
+
+    .footer-main {
+        gap: 30px;
+    }
+
+    .floating-order {
+        right: 10px;
+        bottom: 10px;
+        padding: 11px 15px;
+        font-size: 14px;
+    }
+
+    .floating-whatsapp {
+        left: 10px;
+        bottom: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+}
+
+
+/* VERY SMALL PHONES */
+@media (max-width: 380px) {
+
+    .logo-name strong {
+        font-size: 19px;
+    }
+
+    .logo-name span {
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+
+    .hero-slider {
+        height: 600px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .main-button,
+    .outline-button {
+        width: 100%;
+        padding: 13px 18px;
+    }
+
+    .video-section {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .video-container {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .order-products,
+    .billing-form {
+        padding: 22px 14px;
+    }
+
+    .order-product-card {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .product-card-info h4 {
+        font-size: 14px;
+    }
+
+}
