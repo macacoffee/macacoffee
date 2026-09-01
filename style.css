@@ -1344,7 +1344,7 @@ button {
 
 .about-content > p {
 
-    color: var(--muted);
+    color: black(--muted);
 
     margin-bottom: 14px;
 
