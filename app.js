@@ -520,7 +520,7 @@ const buttonPrice =
 
 let selectedProduct = {
     name: "10 Sachets",
-    price: 1850,
+    price: 1550,
     quantity: 1
 };
 
